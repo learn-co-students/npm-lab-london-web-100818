@@ -1,0 +1,25 @@
+{
+  "name": "npm-lab-london-web-100818",
+  "version": "1.0.0",
+  "description": "npm test",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardmaccaw/npm-lab-london-web-100818.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardmaccaw/npm-lab-london-web-100818/issues"
+  },
+  "homepage": "https://github.com/richardmaccaw/npm-lab-london-web-100818#readme",
+  "dependencies": {
+    "moment": "^2.22.2"
+  }
+}
